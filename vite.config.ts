@@ -3,9 +3,11 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
+// https://vitejs.dev/config/  
 export default defineConfig(({ mode }) => ({
-  base: '/teja-codes-connect/'
+  // Add the base path here
+  base: '/teja-codes-connect/',
+  
   server: {
     host: "::",
     port: 8080,
